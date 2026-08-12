@@ -1,0 +1,24 @@
+.cabecalho{
+    font-family: var(--font-ubuntu);
+    display: flex;
+    justify-content: center; /*serve para alinhar e distribuir os elementos filhos (itens) ao longo do eixo principal*/
+    align-items: center; /*para alinhar os elementos filhos de um contêiner (em layouts como Flexbox ou Grid) ao longo do eixo transversal*/
+}
+
+.cabecalho-titulo-nome{
+    font-size: 40px;
+    color: var(--color-beige);
+}
+
+.cabecalho-lista{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.cabecalho-link{
+    color: var(--color-ocean-blue);
+    text-decoration: none; /*Remove os aspectos de link da tag "a"*/
+}
