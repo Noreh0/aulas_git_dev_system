@@ -1,0 +1,16 @@
+@import url("styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --font-ubuntu: "Ubuntu Mono", monospace;
+    --font-segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-light-blue: #4a65b4;
+    --color-beige: #edeacc;
+    --color-ocean-blue: #b0ebff;
+}
+
+
+body{
+    background-color: var(--color-light-blue);
+    font-family: var(--font-segoe);
+}
