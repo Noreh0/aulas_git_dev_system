@@ -1,0 +1,6 @@
+contador = 1
+soma = 0
+while contador <= 11:
+    soma += contador
+    print(soma)
+    contador+=1
