@@ -1,0 +1,64 @@
+Esta aula tem que ser introdutória a Django com python, trazendo os principais aspectos e como vamos usar, ela deverá ter uma duração de 4 horas com conteúdo prático e atividades usando de exemplo esse conceito:
+Slide:
+    Apresentação da Aula
+    Objetivo da Aula(Explicando o que vamos ver)
+    Trazendo um slide com questionamento para provocar o intuito do porque usar aquilo que será apresentado em aula
+    Problema do mundo real que o conteúdo da Aula vai resolver
+    Apresentar o conteúdo técnico(exemplo: como criar uma arquitetura simples em django, inicializando, quais comandos usar)
+    Exemplo da arquitetura ou código
+    2 ou 3 - Exemplo prático para começarmos a mexermos com a estrutura
+    Mostrar a importancia ou diferença dele para outros modelos no conceito
+    Mostrar a importancia ou diferença dele para outros modelos na prática digital
+    Estrutura profissional - como separar as pastas e o que cada uma deve ter
+    Atividades:
+    1 a 6 atividades para finalizar (pode induzir a enteragirem entre elas)
+
+Trazer as explicações dos comandos usados durante a aula e sua sequência lógica de uso. Introduzir os comandos e quando serão utilizados no processo da aula:
+    python -m pip install virtualenv
+    python -m virtualenv --version
+    python -m venv venv
+    .\venv\Scripts\Activate.ps1
+    deactivate
+    pip install django
+    pip freeze
+    pip freeze > requirements.txt
+    django-admin help
+    django-admin startproject setup .
+    python manage.py runserver
+
+Aula 01 - Parte 01:
+
+    Nesta aula, você aprendeu que o Django é um framework Python focado no desenvolvimento rápido de aplicações web, especialmente aquelas orientadas a conteúdo. Ele foi criado em 2005, é de código aberto e gratuito.
+
+    Alguns pontos importantes que foram abordados são:
+
+        Foco em conteúdo: Ideal para sites de notícias e projetos que lidam com muitos dados.
+        Facilita operações CRUD: Criação, leitura, atualização e exclusão de dados são simplificadas.
+        ORM nativo: Permite interagir com o banco de dados sem precisar escrever SQL manualmente.
+        Interface de administrador: Uma ferramenta poderosa para gerenciar conteúdo.
+        Segurança: Protege contra ataques comuns como cross site scripting e injeções de SQL.
+        Arquitetura MVT: Segue o padrão Model, View, Template.
+        Comunidade ativa: Possui um grande número de desenvolvedores que contribuem para o framework.
+        Fullstack: Permite desenvolver tanto o front-end quanto o back-end no mesmo projeto.
+
+    O instrutor destacou que o Django já oferece uma estrutura nativa com banco de dados, configurações de idioma e fuso horário, entre outros, facilitando o início de um projeto.
+
+    Espero que este resumo ajude a fixar os principais conceitos! Se tiver mais alguma dúvida sobre o que foi dito na aula, é só perguntar.
+
+Parte 02:
+    Nesta aula, você aprendeu a iniciar um projeto Django do zero. Primeiramente, foi criada uma pasta chamada "alura-space" e aberta no Visual Studio Code. Em seguida, verificamos as versões do Python e do Virtualenv.
+
+    O ponto principal foi a criação e ativação de um ambiente virtual com o comando virtualenv venv, que isola as dependências do projeto. A ativação do ambiente virtual foi feita com source venv/bin/activate para macOS ou venv\Scripts\Activate para Windows. Também foi mostrado como desativar o ambiente virtual com o comando deactivate.
+
+    Por fim, você instalou o Django usando o Pip, com o comando pip install django, e aprendeu a atualizar o Pip, se necessário.
+
+Parte 03:
+Nesta aula, você aprendeu a:
+
+    Visualizar dependências: Usar o comando pip freeze para ver todas as dependências do projeto.
+    Criar o arquivo requirements.txt: Gerar o arquivo requirements.txt com o comando pip freeze > requirements.txt para registrar as dependências.
+    Iniciar um projeto Django: Utilizar o comando django-admin startproject setup . para criar a estrutura inicial do projeto.
+    Selecionar o interpretador Python: Configurar o interpretador Python da venv na sua IDE.
+    Subir o servidor de desenvolvimento: Executar o comando python manage.py runserver para iniciar o servidor e visualizar o projeto no navegador.
+
+A aula também destacou a importância de manter o arquivo requirements.txt atualizado e explicou a função do arquivo manage.py.
