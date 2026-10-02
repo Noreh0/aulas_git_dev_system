@@ -1,0 +1,101 @@
+<!-- {% load static %} -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoque - Gestão Inteligente de Estoque</title>
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <!-- {% static '/styles/style.css' %} -->
+</head>
+<body>
+
+    <header>
+        <a href="/" class="logo">Stoque<span>.</span></a>
+        <nav class="nav-links">
+            <a href="#funcionalidades">O que fazemos</a>
+            <a href="#publico">Para quem</a>
+            <!-- <a href="#">Produto</a> -->
+            <!-- Ajuste a url abaixo para a rota de login do seu app Django -->
+            <a href="#" class="btn btn-login">Fazer Login</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Controle total do seu estoque, de onde você estiver.</h1>
+            <p>Um sistema simples e poderoso para administrar entradas, saídas e gerenciar produtos em múltiplos locais simultaneamente. Esqueça as planilhas complexas.</p>
+
+            <!-- Botão Principal: Ajuste a url para a dashboard principal do usuário -->
+            <a href="#" class="btn btn-primary">Acessar meu Gerenciador</a>
+        </div>
+
+        <div class="hero-image">
+            <div class="dashboard-mockup">
+                <div class="mockup-header"></div>
+                <div class="mockup-body">
+                    <div class="mockup-sidebar"></div>
+                    <div class="mockup-content">
+                        <div class="mockup-card"></div>
+                        <div class="mockup-table"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- NOVA SEÇÃO: O QUE FAZEMOS -->
+    <section id="funcionalidades" class="section bg-white">
+        <div class="section-header">
+            <h2>Como o Stoque simplifica seu dia a dia?</h2>
+            <p>Tenha todas as ferramentas necessárias para não perder dinheiro com estoque parado ou produtos esgotados, direto do seu navegador.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><img alt="" src="{% static 'assets/in-stock.png' %}" style="width: 45px;"></div>
+                <!-- src="assets/in-stock.png" -->
+                <h3>Entradas e Saídas Rápidas</h3>
+                <p>Registre movimentações de mercadorias com poucos cliques, mantendo o saldo do seu inventário sempre preciso e livre de erros.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="{% static 'assets/location.png' %}" alt="" style="width: 45px;"></div>
+                <!-- src="assets/location.png" -->
+                <h3>Múltiplos Locais (Multi-estoque)</h3>
+                <p>Gerencie produtos em filiais, depósitos externos ou vitrines diferentes a partir de um único painel de controle.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="{% static 'assets/stock-market.png' %}" alt="" style="width: 45px;"></div>
+                <!-- src="assets/stock-market.png" -->
+                <h3>Avisos de Estoque Mínimo</h3>
+                <p>Receba alertas visuais no seu gerenciador quando um produto estiver acabando, garantindo que você nunca deixe de vender.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVA SEÇÃO: PARA QUEM SERVIMOS -->
+    <section id="publico" class="section">
+        <div class="section-header">
+            <h2>Feito para o seu modelo de negócio</h2>
+            <p>O Stoque é altamente adaptável. Não importa o tamanho ou o setor da sua empresa, se você precisa de organização, nós atendemos você.</p>
+        </div>
+
+        <div class="business-grid">
+            <div class="business-tag"><span></span>E-commerces</div>
+            <div class="business-tag"><span></span>Lojas de Varejo</div>
+            <div class="business-tag"><span></span>Indústrias</div>
+            <div class="business-tag"><span></span>Restaurantes e Bares</div>
+            <div class="business-tag"><span></span>Depósitos e Galpões</div>
+            <div class="business-tag"><span></span>Farmácias e Clínicas</div>
+            <div class="business-tag"><span></span>Redes de Franquias</div>
+            <div class="business-tag"><span></span>Assistências Técnicas</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Stoque. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+Terminal:
+é uma interface baseada em texto que permite a comunicação
+direta com o sistema operacional de um computador por meio
+de comandos digitados.
+
+- Cria uma nova ramificação:
+git checkout -b <nome-nova-branch> 
+
+- Adiciona os conteúdos ao commit
+git add .
+
+- Commit é a ação de deixar direcionado o conteúdo para o Github(nossa Núvem)
+git commit -m "Mensagem aqui"
+
+- Envia para a núvem nossas coisas
+git push origin <branch>
